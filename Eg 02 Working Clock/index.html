@@ -13,8 +13,9 @@
   <script type="text/javascript">
 
     function tick() {
-      showMessage(getTimeString());
-    };
+      let timeString = getTimeString();
+      showMessage(timeString);
+    }
 
     function startClock() {
       setInterval(tick, 1000);

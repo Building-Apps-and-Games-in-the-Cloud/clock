@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Time Travel Clock</title>
+  <title>Quick Update Time Travel Clock</title>
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -26,14 +26,17 @@
 
     function selectFastClock() {
       minutesOffset = 5;
+      tick();
     }
 
     function selectSlowClock() {
       minutesOffset = -5;
+      tick();
     }
 
     function selectNormalClock() {
       minutesOffset = 0;
+      tick();
     }
 
     function tick() {
